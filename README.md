@@ -1,3 +1,20 @@
+
+Requirements:
+Node.js (LTS) (20.19.0)
+Android Studio
+Android device
+Same WiFi network as server
+
+Find you systems ip:
+ipconfig>ipv4 and paste it into index.tsx
+
+npm install
+npx expo install expo-dev-client
+npx expo prebuild
+npx expo run:android
+
+Below is the default react native and expo things...
+
 # Welcome to your Expo app 👋
 
 This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
