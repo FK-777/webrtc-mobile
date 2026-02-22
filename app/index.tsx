@@ -31,7 +31,12 @@ export default function Home() {
       await requestPermissions();
 
       const localStream = await mediaDevices.getUserMedia({
-        video: true,
+        // video: true,
+        video: {
+          // facingMode: "user", // FRONT CAMERA
+          facingMode: "environment", // BACK CAMERA
+        },
+
         audio: true,
       });
 
@@ -61,10 +66,10 @@ export default function Home() {
 
       await pc.setRemoteDescription(answer);
 
-      setStatus("Connected to server 🚀");
+      setStatus("Connected to server... :)");
     } catch (error) {
       console.log("Connection error:", error);
-      setStatus("Connection failed ❌");
+      setStatus("Connection failed :(");
     }
   };
 
