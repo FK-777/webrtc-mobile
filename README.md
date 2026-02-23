@@ -1,4 +1,7 @@
+<img width="747" height="1328" alt="image" src="https://github.com/user-attachments/assets/b0c75ae3-2f36-47e1-afad-51bac1f6470a" />
+<img width="747" height="1328" alt="image" src="https://github.com/user-attachments/assets/8991eb8d-9d2f-4dfe-a507-2707b80ca9fd" />
 
+Some images are added for reference.
 Requirements:
 Node.js (LTS) (20.19.0)
 Android Studio
